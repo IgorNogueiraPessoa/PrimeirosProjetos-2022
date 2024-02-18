@@ -1,0 +1,23 @@
+<html>
+    <head>
+	    <title>Coisas Interessantes</title>
+		
+	</head>
+	
+	<body bgcolor="34,55,67" text="white">
+	<!--Autor: Igor
+	Tema: Quem somos-->     
+	<h1 align="center">Quem Somos</h1>
+	<h2 align="right"> Alinhamento a direita</h2>
+	
+	<hr color=red>
+	<h2>Alinhamento a esquerda</h2><br>
+	<strong>Texto em Strong</strong><br>
+	<em> texto enfatizado</em><br>
+	<mark> texto marcado</mark><br>
+	<small>texto menor</small><br>
+	<del>texto deletado</del><br>
+	<ins>texnto inserido</ins>
+	
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+    <head>
+	    <title>Aula HTML</title>
+	</head>
+	
+	<body>
+	    <h1>Filmes</h1>
+		<h1><center>Marvel</center></h1>
+		<b>Homem Aranha</b><br>
+		<i>Homem de Ferro</i><p>
+		<u>Capitâo América</u><br>
+		<pre>Doutor Estranho</pre>
+		
+		<br><br>
+		10 metros<sup>2</sup><p>
+		
+		H<sub>2</sub>O
+	</body>
+
+</html>

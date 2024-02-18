@@ -1,0 +1,36 @@
+<html>
+    <head>
+	    <meta charset="utf-8"><!--configura a acentuação no site-->
+	    <title>Tabela</title>
+	</head>
+	
+	<body background="download4.jpg">
+	
+	
+	Minha primeira tabela
+	
+	<table width="500" height=200 border=2 bordercolor="red" bgcolor="blue">
+	       <!--Linha1-->
+		   <tr>
+		       <th>Comida</th>
+			   <th>País</th>
+			   <th>Ingrediente</th>
+			</tr>
+			<!--Linha2-->
+			<tr>
+		         <td>Lámen</td>
+				 <td>Japão</td>
+				 <td>Macarrão de arroz</td>
+			</tr>
+			<!--Linha3-->
+            <tr>
+                <td>Feijoada</td>
+                <td>Brasil</td>
+				<td>Feijão preto</td>
+            </tr>				
+	   
+	   
+	   </table>
+	</body>
+
+</html>

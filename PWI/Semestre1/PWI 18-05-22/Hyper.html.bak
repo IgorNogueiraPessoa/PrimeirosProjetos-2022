@@ -1,0 +1,24 @@
+<html>
+    <head>
+	<meta charset="utf-8"><!--configura a acentuação no site-->
+	    <title>HYPERLINK</title>
+	</head>
+	
+	<body>
+	<!--Hyperlink-->
+	<center><font face="Arial, Verdana" size="5" color="#8B4513">Hyperlink</font></center>
+	<br><br>
+	Hyperlink externo - url
+	<br><br>
+	<a href="https://eteczonaleste.com.br"> Etec da zona leste </a>
+	<br><br><br>
+	hyperlink externo imagem<br>
+	<a href="https://eteczonaleste.com.br"><img src= "minion.jpg" width="400" height="300"></a>
+	<br><br><br>
+	hyperlink externo, mas linkando com pagina própria
+	<br><br><br>
+	
+	<a href="exemplo1.html">pagina imagem</a>
+	</body>
+
+</html>

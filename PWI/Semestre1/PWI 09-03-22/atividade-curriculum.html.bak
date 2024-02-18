@@ -1,0 +1,18 @@
+<html><
+    <head>
+	    <title>Aula HTML</title>
+	</head>
+	
+	<body>
+	    <h1>Meu Curriculum</h1>
+		<h1><center>Igor Nogueira Pessoa</center></h1>
+		<b>Perfil</b><br>
+		<u>Escolaridade:</u> ETEC da Zona Leste; curso de Desinvolvimento de Sistemas integrado ao ensino médio.<p>
+		<u>Dados Pessoais:</u> Nascido em 22 de abril de 2006, 15 anos, na cidade de São Paulo, residindo atualmente na mesma cidade, no bairro Jardim Três Marias. 
+		
+	
+     
+		
+	</body>
+
+</html>

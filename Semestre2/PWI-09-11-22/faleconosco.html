@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+    <script language = "javascript">
+    function validaform()
+    {
+    dados = document.cadastro;
+    //valida nome
+    if (dados.nomecompleto.value=="")
+        {
+        alert ("O campo "+dados.nomecompleto.name+" deve ser preenchido!");
+        dados.nomecompleto.focus();
+        return false;
+        } 
+    else
+        if (dados.nomecompleto.value.length<9)
+        {
+        alert ("O campo "+dados.nomecompleto.name+" deve conter o nome completo, incluindo o sobrenome"); 
+        dados.nomecompleto.focus();
+        return false;
+        }  
+    //valida assunto
+    if(dados.assunto.value=="")
+       {
+       alert ("O campo "+dados.assunto.name + " deve ser preenchido!");
+       dados.assunto.focus();
+       return false;
+       }
+    //valida email
+    if (dados.email.value=="" || dados.email.value.indexOf("@")==-1 || dados.email.value.indexOf(".")==-1)
+        {
+        alert("O campo "+dados.email.name +" deve ser preenchido corretamente!");
+        dados.email.focus();
+        return false;
+        }
+      
+    }
+    </script>
+</head>
+
+<body>
+
+<h1><center>Fale Conosco</center></h1><br><br>
+
+<form name = "cadastro" onsubmit="return validaform()" method="post">
+<label for = "nome" title="Informe o nome completo">
+Nome<font color="red">*</font><font color="black">:</font>
+</label>
+<input type = "text" name = "nomecompleto" maxlength="50" size = "50"><br><br>
+
+
+<label for = "assunto" title="Informe o asunto">
+Assunto<font color="red">*</font><font color="black">:</font>
+</label>
+<input type = "text" name = "assunto" maxlength="30" size = "30"><br><br>
+    
+<label for = "email" title="Informe o email">
+Email<font color="red">*</font><font color="black">:</font>
+</label>
+<input type = "text" name = "email" maxlength="30" size = "30"><br><br>
+   
+<input type="submit" name = "enviar" value="Enviar">
+<input type="reset" name="Limpar">
+</form>
+
+</body>
+</html>

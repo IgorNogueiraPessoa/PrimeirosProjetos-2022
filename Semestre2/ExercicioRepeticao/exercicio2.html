@@ -1,0 +1,54 @@
+<html>
+
+<head>
+	<meta charset="utf-8"><!--configura a acentuação no site-->
+	    <title>Estrutura de repetição</title>
+		<script language="javascript">
+		function verificar(num)
+        {
+
+		  var f = parseInt(num.value);
+		  var res = f;
+		  
+		   if (parseInt(num.value)==0 || parseInt(num.value)==1)
+		   {
+		     document.write("O fatorial desse número é 1");
+		   }
+		   else
+		   {
+			 if(parseInt(num.value)<0)
+			 {
+			  document.write("Não existe fatorial de número negativo!");
+			 }
+				
+		     else 
+			 {
+		     for (var i = 1; i<f; i++) //i=variavel de contagem
+             {		  
+		     res = res*i;	
+		     }
+             document.write("O fatorial de "+parseInt(num.value)+" é: "+res);		   
+		     }
+		   }
+			
+		}
+		</script>
+</head>
+	
+<body>
+    
+	<center>Número Fatorial</center> 
+	<br>
+    <form name= "numero">
+    Digite o número do cálculo fatorial: <input type= "text" name="num">
+    <br><br>
+    <input type= "submit" value="verificar" onclick='verificar(num)'>
+
+
+	</form>
+
+
+
+</body>
+
+</html>

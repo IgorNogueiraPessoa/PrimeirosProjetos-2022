@@ -1,0 +1,12 @@
+<html>
+    <head>
+	<meta charset="utf-8"><!--configura a acentuação no site-->
+	    <title>Início</title>
+	</head>
+	
+	<body>
+	<h1><center>Início</center></h1>
+	<img src="therock.jpg" align="center" width="500" height="500">
+	</body>
+
+</html>

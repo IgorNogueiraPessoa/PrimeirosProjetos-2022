@@ -1,0 +1,59 @@
+<html>
+<head>
+	<meta charset="utf-8"><!--configura a acentuação no site-->
+	    <title>B1</title>
+		
+		<!--javascript-->
+		<script language="javascript">
+		    function verificar(num1, num2) 
+		    {
+			    if (parseFloat(num1.value)>parseFloat(num2.value))
+				    {
+					
+					alert("O primeiro número é o maior");
+					
+					}
+		
+		
+		        else
+			    {  
+				
+				    if (parseFloat(num2.value)>parseFloat(num1.value))
+					{
+					alert("O segundo número é maior");
+					}
+					
+					    else
+						{
+						
+						    if (parseFloat(num1.value)==parseFloat(num2.value))
+						    {
+							alert("Os números são iguais");
+							}
+						
+						
+						}
+					
+					
+				}	
+		    }   
+		</script>
+</head>
+	
+<body>
+
+    <br>
+	<center>Maior ou Menor</center>
+	<br><br>
+	
+	<form name="numero">
+	Digite o primeiro número: <input type="text" name="num1">
+	<br><br>
+	Digite o segundo número: <input type="text" name="num2">
+	<br><br>
+    <input type= "submit" value="verificar" onclick='verificar(num1, num2)'>
+	</form>
+
+</body>
+
+</html>
