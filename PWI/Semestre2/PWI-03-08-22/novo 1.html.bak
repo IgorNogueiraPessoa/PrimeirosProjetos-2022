@@ -1,0 +1,33 @@
+<html>
+    <head>
+	<meta charset="utf-8"><!--configura a acentuação no site-->
+	    <title>Java Script</title>
+		
+	<!-- java script-->
+	<script language="javascript">
+	function calcular(num);
+    { 
+	    
+	    int: n=parseInt(num)*2 //parseInt=converta para inteiro o "num"
+	    alert("dobro= "+n);
+
+
+
+	
+	}
+	</script>
+	</head>
+	
+	<body>
+	<br>
+	<center><h1>Cálculo do Dobro</h1></center>
+    <!--formulário-->
+	<form name="calculo">
+	Dê um número: <input type="text" name="num" onclick="calcular(num)">
+	<br><br>
+	<input type="submit" value="calcular">  
+	
+	</form>
+	</body>
+
+</html>

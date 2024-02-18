@@ -1,0 +1,33 @@
+<html>
+    <head>
+	<meta charset="utf-8"><!--configura a acentuação no site-->
+	    <title>Formulário</title>
+	<!-- java script-->
+	<script language="javascript">
+	function calcular(x,y)
+	{
+	    var xy;
+		xy=(parseInt(x.value)*parseInt(y.value))**2;
+		alert("O valor de X vezes o valor de Y ao quadrado é "+ xy);
+		document.write("O valor de X vezes o valor de Y ao quadrado é "+ xy);
+	}
+	</script>
+	
+	</head>
+	
+	<body>
+	<br>
+	<center><h1>Cálculo de X vezes Y ao quadrado</h1></center>
+    <!--formulário-->
+	<form name="calculo de x e y">
+	Digite o valor de X: <input type="text" name="x">
+	<br><br>
+	Digite o valor de Y <input type="text" name="y">
+	<br><br>
+	<input type="submit" value="calcular" onclick='calcular(x,y)'>  
+	
+	</form>
+
+	</body>
+
+</html>

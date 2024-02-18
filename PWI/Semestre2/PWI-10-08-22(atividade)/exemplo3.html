@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="utf-8"><!--configura a acentuação no site-->
+	    <title>Saldo</title>
+		<script language="javascript">
+		function verificar(dp)
+		
+		{
+		  var dp, s1, s2, s3, res;
+		  dp=500;
+		  s1=dp+((dp/100)*1);
+		  s2=s1+((s1/100)*1);
+		  s3=s2+((s2/100)*1);
+		  res=s3-0.1505;
+		  alert("o depósito inicial é de: "+dp+" e o saldo após três meses será de aproximadamente "+res);
+		}
+		
+		</script>
+</head>
+	
+<body>
+
+    <center><font face=verdana size=4>Apresentar saldo após três meses</font></center>
+	<br><br>
+    <form name="salario">
+	<font face=verdana size=4>Clique aqui para ver o depósito inicial e após três meses.</font> <input type="submit" name="dp" value="verificar" onclick='verificar(dp)'>  
+    </form>
+
+
+	
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>Vetor</title>
+    <script type="text/javascript">
+
+    function ver(log,sen)
+    {
+    const login = [];
+    login[0]="Ana";
+    login[1]="Ednaldo";
+    login[2]="Gilberto";
+
+     
+    const senha = [];
+    senha[0]="abc"
+    senha[1]="dfg"
+    senha[2]="hij"
+   
+    if(log.value==login[0] && sen.value==senha[0] || log.value==login[1] && sen.value==senha[1] || log.value==login[2] && sen.value==senha[2])
+    document.write('<br><br>',"Login correto.",'<br><br><br>', '<img src="liberado.jpg">','<br><br>', '<a href="Vetor2.html">Clique nessa frase para ir em outra atividade.</a>')
+    else
+    alert("Login errado")
+    }
+
+    </script>
+
+</head>
+<body>
+
+    <form name="vetor">
+    <center>Login e Senha</center>
+    Digite o login: <input type="text" name="log">
+    <br><br>
+    Digite a senha: <input type="text" name="sen">
+    <br><br>
+    <input type="submit" value="verificar" onclick="ver(log,sen)">
+    <br><br>
+    <img src="bloquedo.jpg">
+    </form>
+
+</body>
+</html>
